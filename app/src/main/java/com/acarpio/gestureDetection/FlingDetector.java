@@ -15,8 +15,7 @@ public class FlingDetector extends GestureDetector.SimpleOnGestureListener {
     public FlingDetector(Context context, View pelota) {
         this.context = context;
         this.pelota = pelota;
-        float xOriginal = pelota.getTranslationX();
-        float yOriginal = pelota.getTranslationY();
+
     }
 
 
