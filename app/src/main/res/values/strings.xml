@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">acarpioGestures</string>
+
+    <string name="tap_here">Tap the small rectangle!</string>
+
+    <string name="double_tap_here">Swipe here inside the rectangle!</string>
+
+</resources>
