@@ -6,6 +6,7 @@ CarpioAlex/acarpioGestures (github.com)
 
 ![Captura de pantalla 2024-10-17 111936](https://github.com/user-attachments/assets/81ca887c-7966-4992-b8da-9955cea72668)
 
+[Uploading acarpio_gestures._final.pdf…]()
 
 
 ## Creating the layout to limit where can you touch on the screen
