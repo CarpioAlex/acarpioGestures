@@ -55,11 +55,7 @@ public class FlingDetector extends GestureDetector.SimpleOnGestureListener {
 
 
 
-    @Override
-    public boolean onDown(MotionEvent event) {
-        Log.d(TAG, "onDown pressed:  " + event.toString());
-        return true;
-    }
+
 
 
 

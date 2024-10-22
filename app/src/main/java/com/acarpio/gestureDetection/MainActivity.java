@@ -1,8 +1,10 @@
 package com.acarpio.gestureDetection;
 
+import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,10 +18,12 @@ public class MainActivity extends AppCompatActivity {
     // Gesture detector
     private GestureDetectorCompat mDetector1;
     private GestureDetectorCompat mDetector2;
+
     // Debug constants
     private static final String DEBUG_TAG = "Gestures";
 
 
+    @SuppressLint("ClickableViewAccessibility")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -73,7 +77,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        ImageView imagenAMover = findViewById(R.id.Circle);
+        View dropZone = findViewById(R.id.dropContainer);
 
+
+        MoveView listenerMover = new MoveView();
+        listenerMover.setDropZone(dropZone);
+        imagenAMover.setOnTouchListener(listenerMover);
+
+
+
+
+
+
+        // onCreate ENDING
     }
 
 
