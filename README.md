@@ -2,6 +2,12 @@
 
 CarpioAlex/acarpioGestures (github.com)
 
+![Captura de pantalla 2024-10-16 141104](https://github.com/user-attachments/assets/95dd739e-19de-4765-bb25-a394ecd62d33)
+
+![Captura de pantalla 2024-10-17 111936](https://github.com/user-attachments/assets/81ca887c-7966-4992-b8da-9955cea72668)
+
+
+
 ## Creating the layout to limit where can you touch on the screen
 
 To limit where the gestures will be listened to, I created two rectangles, one for
